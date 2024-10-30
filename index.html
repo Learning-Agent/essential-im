@@ -8,6 +8,8 @@
     <meta name="description" content="Resources and support for teaching IM Algebra 1, including slides and a podcast overview.">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -15,26 +17,158 @@
     </header>
 
     <main>
-        <section id="resources">
-            <h2>Get the Goods</h2>
-            <ul>
-                <li><a href="https://podcasts.apple.com/us/podcast/essential-im/id1774535781" target="_blank" aria-label="Essential IM Podcast">Essential IM Podcast (Apple Podcasts)</a></li>
-                <li><a href="https://open.spotify.com/show/31TxfYzAJsGxDJUWW8gvXc" target="_blank" aria-label="Essential IM Podcast">Essential IM Podcast (Spotify)</a></li>
-                <li>Essential IM Slides: Coming Soon</li>
-                
-            </ul>
-        </section>
+      <section id="resources">
+        <!-- <h2>Get the Goods</h2> -->
+        <ul>
+            <li><a href="https://podcasts.apple.com/us/podcast/essential-im/id1774535781" target="_blank" aria-label="Apple Podcasts">
+                <img src="assets/apple_badge.svg" alt="Listen on Apple Podcasts" class="podcast-badge">
+            </a></li>
+            <li><a href="https://open.spotify.com/show/31TxfYzAJsGxDJUWW8gvXc" target="_blank" aria-label="Spotify">
+                <img src="assets/spotify_badge.png" alt="Listen on Spotify" class="podcast-badge">
+            </a></li>
+            <li><a href="https://music.amazon.com/podcasts/f719a1ba-9411-46f0-83c3-09c2608df551/essential-im" target="_blank" aria-label="Amazon Podcasts">
+                <img src="assets/amazon_badge.png" alt="Listen on Amazon Music" class="podcast-badge">
+            </a></li>
+        </ul>
+    </section>
+        
+      <section id="about">
+        <h2>About Essential IM</h2>
+        <p>The Essential IM Podcast is a resource for teaching <a href="https://accessim.org/9-12-aga/algebra-1?a=teacher" target="_blank">IM Algebra 1&trade;</a>.<br><span class="spacer"></span>
+            Listen to an overview of the lesson you're about to teach, available as an episode of the <a href="https://podcasts.apple.com/us/podcast/essential-im/id1774535781" target="_blank">Essential IM Podcast</a>. These overviews are automatically generated using NotebookLM’s Audio Overview feature. Try one out!<br><span class="spacer"></span>
+            Coming in November 2024: the <b>Essential IM Slides</b> are made for teaching, even if you haven’t had time to read the full lesson plan. Share your contact info below to be notified when they are available.</p>
+    </section>
 
-        <section id="about">
-            <h2>What is this?</h2>
-            <p>A resource for teaching IM Algebra 1&trade;.<br><span class="spacer"></span>
-                Listen to an overview of the lesson you're about to teach, available as an episode of the <b>Essential IM Podcast </b>. These overviews are automatically generated using NotebookLM’s Audio Overview feature, and they’re surprisingly good. Try one out!<br><span class="spacer"></span>
-                The <b>Essential IM Slides</b> are made for teaching, even if you haven’t had time to read the full lesson plan. They cover the key parts and teacher moves that you need in class.</p>
+
+        <section>
+            <h2>Get Updates from Essential IM</h2>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mldegkkd" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <!-- <label for="message">Message (Optional)</label>
+              <textarea rows="5" name="message" id="message" placeholder="your message here" required=""></textarea> -->
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form><style>/* reset */
+          #fs-frm input,
+          #fs-frm select,
+          #fs-frm textarea,
+          #fs-frm fieldset,
+          #fs-frm optgroup,
+          #fs-frm label,
+          #fs-frm #card-element:disabled {
+            font-family: inherit;
+            font-size: 100%;
+            color: inherit;
+            border: none;
+            border-radius: 0;
+            display: block;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+          }
+          #fs-frm label,
+          #fs-frm legend,
+          #fs-frm ::placeholder {
+            font-size: .825rem;
+            margin-bottom: .5rem;
+            padding-top: .2rem;
+            display: flex;
+            align-items: baseline;
+          }
+          
+          /* border, padding, margin, width */
+          #fs-frm input,
+          #fs-frm select,
+          #fs-frm textarea,
+          #fs-frm #card-element {
+            border: 1px solid rgba(0,0,0,0.2);
+            background-color: rgba(255,255,255,0.9);
+            padding: .75em 1rem;
+            margin-bottom: 1.5rem;
+          }
+          #fs-frm input:focus,
+          #fs-frm select:focus,
+          #fs-frm textarea:focus {
+            background-color: white;
+            outline-style: solid;
+            outline-width: thin;
+            outline-color: gray;
+            outline-offset: -1px;
+          }
+          #fs-frm [type="text"],
+          #fs-frm [type="email"] {
+            width: 100%;
+          }
+          #fs-frm [type="button"],
+          #fs-frm [type="submit"],
+          #fs-frm [type="reset"] {
+            width: auto;
+            cursor: pointer;
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+          }
+          #fs-frm [type="button"]:focus,
+          #fs-frm [type="submit"]:focus,
+          #fs-frm [type="reset"]:focus {
+            outline: none;
+          }
+          #fs-frm [type="submit"],
+          #fs-frm [type="reset"] {
+            margin-bottom: 0;
+          }
+          #fs-frm select {
+            text-transform: none;
+          }
+          
+          #fs-frm [type="checkbox"] {
+            -webkit-appearance: checkbox;
+            -moz-appearance: checkbox;
+            appearance: checkbox;
+            display: inline-block;
+            width: auto;
+            margin: 0 .5em 0 0 !important;
+          }
+          
+          #fs-frm [type="radio"] {
+            -webkit-appearance: radio;
+            -moz-appearance: radio;
+            appearance: radio;
+          }
+          
+          /* address, locale */
+          #fs-frm fieldset.locale input[name="city"],
+          #fs-frm fieldset.locale select[name="state"],
+          #fs-frm fieldset.locale input[name="postal-code"] {
+            display: inline;
+          }
+          #fs-frm fieldset.locale input[name="city"] {
+            width: 52%;
+          }
+          #fs-frm fieldset.locale select[name="state"],
+          #fs-frm fieldset.locale input[name="postal-code"] {
+            width: 20%;
+          }
+          #fs-frm fieldset.locale input[name="city"],
+          #fs-frm fieldset.locale select[name="state"] {
+            margin-right: 3%;
+          }
+          </style>
         </section>
+        
+
+        
     </main>
 
     <footer>
-        <p>&copy; 2024 Learning Agent<br>IM Algebra 1&trade; is &copy; 2024 Illustrative Mathematics®. Licensed under CC BY-NC 4.0.</p>
+        <p>&copy; 2024 Essential Teaching<br>IM Algebra 1&trade; is &copy; 2024 Illustrative Mathematics®. Licensed under CC BY-NC 4.0.</p>
     </footer>
 </body>
 </html>
