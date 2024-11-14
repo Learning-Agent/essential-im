@@ -45,10 +45,11 @@ header h1 {
 
 h2 {
     font-family: 'Inter', sans-serif; /* Switch to Inter */
-    font-size: 1.8rem; /* Larger for subheadings */
+    font-size: 2.5rem; /* Larger for subheadings */
     font-weight: 600; /* Semi-bold */
     color: #333; /* Keep consistent with body */
-    margin-bottom: 10px; /* Add space below */
+    margin-bottom: 20px; /* Add space below */
+    text-align: center;
 }
 
 
@@ -60,6 +61,8 @@ h2 {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 #resources ul li {
@@ -167,10 +170,10 @@ p {
     font-size: 1rem; /* Comfortable size for reading */
     color: #444; /* A bit softer than #333 */
     line-height: 1.7; /* Make lines well-spaced */
-    margin: 0; /* Center it within the section */
+    margin: 0 auto; /* Center it within the section */
     margin-bottom: 1rem; /* Adds space below each paragraph */
-    text-align: left; /* Align text to the left */
-    max-width: 700px; /* Limit how wide the text can go */
+    text-align: center; /* Align text to the left */
+    max-width: 600px; Limit how wide the text can go */
     padding: 20px; /* Add more space around the text */
 }
 
@@ -198,4 +201,18 @@ footer {
 footer p {
     font-size: 0.8rem; /* Adjust to make the text smaller */
     color: #FDFDFD;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+#fs-frm {
+    max-width: 600px; /* Keeps the form from stretching too wide */
+    width: 100%;
+    margin: 0 auto; /* Centers the form horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

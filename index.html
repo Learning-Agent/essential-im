@@ -18,7 +18,7 @@
 
     <main>
       <section id="resources">
-        <!-- <h2>Get the Goods</h2> -->
+        <h2>The Podcast</h2>
         <ul>
             <li><a href="https://podcasts.apple.com/us/podcast/essential-im/id1774535781" target="_blank" aria-label="Apple Podcasts">
                 <img src="assets/apple_badge.svg" alt="Listen on Apple Podcasts" class="podcast-badge">
@@ -31,25 +31,27 @@
             </a></li>
         </ul>
     </section>
-        
-      <section id="about">
-        <h2>About Essential IM</h2>
-        <p>The Essential IM Podcast is a resource for teaching <a href="https://accessim.org/9-12-aga/algebra-1?a=teacher" target="_blank">IM Algebra 1&trade;</a>.<br><span class="spacer"></span>
-            Listen to an overview of the lesson you're about to teach, available as an episode of the <a href="https://podcasts.apple.com/us/podcast/essential-im/id1774535781" target="_blank">Essential IM Podcast</a>. These overviews are automatically generated using NotebookLM’s Audio Overview feature. Try one out!<br><span class="spacer"></span>
-            Coming in November 2024: the <b>Essential IM Slides</b> are made for teaching, even if you haven’t had time to read the full lesson plan. Share your contact info below to be notified when they are available.</p>
+
+    <section id="slides">
+      <h2>The Slides</h2>
+      <p><a href="https://drive.google.com/drive/folders/12IpHfe5PyGQYQ1_QUJMrI_HX6dN11UJd" aria-label="Placeholder link"><img src="assets/drive_logo.png" alt="Drive Logo" style="width: 80px; height: auto;"></a></p>
     </section>
+        
+      
 
 
         <section>
-            <h2>Get Updates from Essential IM</h2>
+            <h2>Get Updates</h2>
+            <p>We'll tell you when we post new stuff.<br>Maximum 1 email a week.</p>
+            <div class="form-container"></div>
         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mldegkkd" method="post">
             <fieldset id="fs-frm-inputs">
               <label for="full-name">Full Name</label>
               <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
               <label for="email-address">Email Address</label>
               <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-              <!-- <label for="message">Message (Optional)</label>
-              <textarea rows="5" name="message" id="message" placeholder="your message here" required=""></textarea> -->
+              <label for="message">Feedback</label>
+              <textarea rows="5" name="message" id="message" placeholder="Talk to us!" required="" style="width: 600px;"></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </fieldset>
             <input type="submit" value="Submit">
@@ -104,7 +106,7 @@
           }
           #fs-frm [type="text"],
           #fs-frm [type="email"] {
-            width: 100%;
+            width: 600px;
           }
           #fs-frm [type="button"],
           #fs-frm [type="submit"],
@@ -161,8 +163,14 @@
             margin-right: 3%;
           }
           </style>
+        </div>
         </section>
         
+        <section id="about">
+          <h2>About Essential IM</h2>
+          <p>The <b>Essential IM Podcast</b> is a resource for teaching <a href="https://accessim.org/9-12-aga/algebra-1?a=teacher" target="_blank">IM Algebra 1&trade;</a>. Listen to an overview of the lesson you're about to teach. Each episode was automatically generated using IM's teacher guide and NotebookLM’s Audio Overview feature. Try one out!<br><span class="spacer"></span>
+              The <b>Essential IM Slides</b> contain everything you need to teach an IM lesson in 8 slides. Currently, the Algebra 1 Functions unit is available as a pilot. Share your contact info above to get updates.</p>
+        </section>
 
         
     </main>
