@@ -213,7 +213,7 @@ footer p {
 }
 
 #fs-frm {
-    max-width: 440px;
+    max-width: 355px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -230,7 +230,7 @@ footer p {
     box-sizing: border-box;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 355px) {
     #fs-frm {
         max-width: 90%;
     }
